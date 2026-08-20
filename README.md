@@ -45,6 +45,11 @@ bhoomi-ai/
 - **Local Development**: Performed using local IDEs (e.g., VS Code / Antigravity environment) for application code (backend, frontend, agents).
 - **ML Experimentation**: Google Colab is utilized for resource-intensive ML experimentation and model training.
 
+## Dependency Management
+- **Frontend**: The React application will use `npm` as the package manager.
+- **Python / Backend / ML**: Standard `requirements.txt` files are used (`backend/requirements.txt` and `ml/requirements-ml.txt`). Complex environment managers like Poetry or Conda are intentionally omitted to keep the setup straightforward.
+- **Experimental ML**: Google Colab notebooks will install required dependencies independently within their own environments.
+
 ## Current Development Phase
 **Phase 0 — Architecture & Development Environment**
 We are currently establishing the repository foundation and defining the initial architecture. Application logic, models, and external integrations will be implemented in subsequent phases.
