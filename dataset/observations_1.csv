@@ -1,0 +1,2 @@
+id,field_id,crop_cycle_id,source,type,depth_interval,value,unit,provenance_id,metadata,observed_at,created_at
+8140b147-55f3-48b7-8bed-c7e3d17cb642,e6b85b51-55b3-4402-aedd-ec3a5e389d15,,Open-Meteo,temperature_2m_max,,{'raw': 32.5},C,om_archive_20230101,,2023-01-01 00:00:00+00:00,2026-08-26 14:48:34.174139+00:00
