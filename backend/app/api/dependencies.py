@@ -9,8 +9,11 @@ def get_satellite_service() -> SatelliteService:
 def get_weather_service() -> WeatherService:
     return WeatherService()
 
+from app.providers.soil import SoilGridsWCSProvider
+
 def get_soil_service() -> SoilService:
-    return SoilService()
+    provider = SoilGridsWCSProvider()
+    return SoilService(provider=provider)
 
 def get_advisory_service() -> AdvisoryService:
     return AdvisoryService()
